@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #000;
+    color: #fff;
+}
+
+h2 {
+    position: relative;
+    font-size: 10em;
+}
+
+canvas {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
